@@ -1,0 +1,402 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:23:18.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-89-generic
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.20.04
+02-Nov-2021 21:23:18.399 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+02-Nov-2021 21:23:18.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:23:18.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:23:18.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2021 21:23:18.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2021 21:23:18.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Nov-2021 21:23:18.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Nov-2021 21:23:18.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:23:18.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/conf/logging.properties
+02-Nov-2021 21:23:18.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:23:18.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/temp
+02-Nov-2021 21:23:18.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+02-Nov-2021 21:23:18.700 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:23:18.725 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [506] milliseconds
+02-Nov-2021 21:23:18.779 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2021 21:23:18.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+02-Nov-2021 21:23:18.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs]
+02-Nov-2021 21:23:18.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs] has finished in [206] ms
+02-Nov-2021 21:23:18.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples]
+02-Nov-2021 21:23:19.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples] has finished in [172] ms
+02-Nov-2021 21:23:19.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager]
+02-Nov-2021 21:23:19.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager] has finished in [19] ms
+02-Nov-2021 21:23:19.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager]
+02-Nov-2021 21:23:19.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager] has finished in [17] ms
+02-Nov-2021 21:23:19.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT]
+02-Nov-2021 21:23:19.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT] has finished in [13] ms
+02-Nov-2021 21:23:19.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:23:19.225 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [499] milliseconds
+02-Nov-2021 21:23:28.146 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.157 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.163 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.170 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.177 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.181 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.188 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.193 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.197 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.204 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.209 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.213 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.218 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.225 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.230 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.235 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.242 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.247 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.254 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.261 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.269 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.276 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.281 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.288 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.294 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.299 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:28.306 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.306 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.311 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.318 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.324 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.328 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.331 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.336 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.342 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.345 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.349 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.354 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.359 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.362 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.365 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.370 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.374 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.378 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.381 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.385 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.390 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.394 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.397 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.401 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.406 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.411 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.414 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.418 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.422 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.427 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.429 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:32.433 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.506 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.510 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.514 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.520 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.523 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.528 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.530 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.533 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.536 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.539 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.542 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.546 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.549 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.552 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.555 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.561 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.563 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.566 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.570 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.573 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.576 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.581 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.587 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.589 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.594 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.597 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.600 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.603 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.608 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.614 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:23:33.617 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:24:49.254 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/conf/tomcat-users.xml]
+02-Nov-2021 21:24:52.731 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Nov-2021 21:24:52.731 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:24:52.739 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Nov-2021 21:24:52.768 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:24:52.786 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:24:54.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+02-Nov-2021 21:24:54.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+02-Nov-2021 21:24:54.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+02-Nov-2021 21:24:54.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+02-Nov-2021 21:24:54.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-89-generic
+02-Nov-2021 21:24:54.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2021 21:24:54.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+02-Nov-2021 21:24:54.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.20.04
+02-Nov-2021 21:24:54.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+02-Nov-2021 21:24:54.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:24:54.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:24:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2021 21:24:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2021 21:24:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Nov-2021 21:24:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/conf/logging.properties
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:24:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/temp
+02-Nov-2021 21:24:54.884 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+02-Nov-2021 21:24:55.138 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:24:55.156 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [461] milliseconds
+02-Nov-2021 21:24:55.200 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2021 21:24:55.200 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+02-Nov-2021 21:24:55.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs]
+02-Nov-2021 21:24:55.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs] has finished in [166] ms
+02-Nov-2021 21:24:55.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples]
+02-Nov-2021 21:24:55.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples] has finished in [166] ms
+02-Nov-2021 21:24:55.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager]
+02-Nov-2021 21:24:55.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager] has finished in [20] ms
+02-Nov-2021 21:24:55.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager]
+02-Nov-2021 21:24:55.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager] has finished in [17] ms
+02-Nov-2021 21:24:55.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT]
+02-Nov-2021 21:24:55.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT] has finished in [12] ms
+02-Nov-2021 21:24:55.591 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:24:55.598 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [441] milliseconds
+02-Nov-2021 21:25:00.607 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.615 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.622 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.627 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.631 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.637 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.641 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.645 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.650 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.654 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.658 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.662 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.666 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.670 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.674 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.677 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.680 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.684 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.689 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.692 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.695 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.699 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.704 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.708 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.712 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.717 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:00.722 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.786 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.790 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.794 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.798 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.803 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.809 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.812 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.817 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.822 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.826 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.830 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.835 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.840 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.843 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.846 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.849 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.852 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.855 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.859 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.862 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.867 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.870 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.875 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.878 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.881 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.884 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.887 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.889 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.893 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.896 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:25:01.901 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:35:45.791 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war]
+02-Nov-2021 21:35:45.832 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war] has finished in [40] ms
+02-Nov-2021 21:36:22.223 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Nov-2021 21:36:22.223 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:36:22.230 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Nov-2021 21:36:22.254 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:36:22.278 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:36:27.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+02-Nov-2021 21:36:27.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+02-Nov-2021 21:36:27.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+02-Nov-2021 21:36:27.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-89-generic
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.20.04
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:36:27.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:36:27.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2021 21:36:27.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2021 21:36:27.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Nov-2021 21:36:27.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Nov-2021 21:36:27.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:36:27.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/conf/logging.properties
+02-Nov-2021 21:36:27.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2021 21:36:27.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2021 21:36:27.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2021 21:36:27.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Nov-2021 21:36:27.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2021 21:36:27.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:36:27.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:36:27.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/temp
+02-Nov-2021 21:36:27.779 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+02-Nov-2021 21:36:28.064 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:36:28.085 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [514] milliseconds
+02-Nov-2021 21:36:28.134 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2021 21:36:28.134 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+02-Nov-2021 21:36:28.151 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war]
+02-Nov-2021 21:36:28.352 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war] has finished in [201] ms
+02-Nov-2021 21:36:28.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs]
+02-Nov-2021 21:36:28.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs] has finished in [25] ms
+02-Nov-2021 21:36:28.379 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples]
+02-Nov-2021 21:36:28.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples] has finished in [201] ms
+02-Nov-2021 21:36:28.580 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager]
+02-Nov-2021 21:36:28.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager] has finished in [23] ms
+02-Nov-2021 21:36:28.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager]
+02-Nov-2021 21:36:28.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager] has finished in [20] ms
+02-Nov-2021 21:36:28.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT]
+02-Nov-2021 21:36:28.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT] has finished in [17] ms
+02-Nov-2021 21:36:28.644 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:36:28.652 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [567] milliseconds
+02-Nov-2021 21:36:44.280 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.284 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.287 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.291 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.295 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.298 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.301 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.304 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.307 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.310 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.313 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.315 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.319 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.323 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.328 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.331 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.334 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.338 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.345 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.348 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.351 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.354 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.356 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.359 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.362 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.364 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:44.368 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.439 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.444 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.450 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.454 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.458 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.463 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.468 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.472 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.474 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.479 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.483 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.488 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.491 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.495 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.500 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.504 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.507 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.512 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.517 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.521 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.525 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.530 WARNING [http-nio-8080-exec-10] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.534 WARNING [http-nio-8080-exec-1] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.538 WARNING [http-nio-8080-exec-2] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.541 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.547 WARNING [http-nio-8080-exec-4] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.551 WARNING [http-nio-8080-exec-6] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.555 WARNING [http-nio-8080-exec-5] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.558 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.562 WARNING [http-nio-8080-exec-8] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:36:45.565 WARNING [http-nio-8080-exec-9] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user [urbanvpn@urban-vpn.com]
+02-Nov-2021 21:41:38.769 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/TomcatWebApp-1.0-SNAPSHOT]
+02-Nov-2021 21:41:38.809 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war]
+02-Nov-2021 21:41:38.830 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war] has finished in [21] ms
+02-Nov-2021 21:41:55.718 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Nov-2021 21:41:55.719 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:41:55.726 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+02-Nov-2021 21:41:55.749 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:41:55.773 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:42:00.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+02-Nov-2021 21:42:00.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+02-Nov-2021 21:42:00.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+02-Nov-2021 21:42:00.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+02-Nov-2021 21:42:00.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-89-generic
+02-Nov-2021 21:42:00.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+02-Nov-2021 21:42:00.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+02-Nov-2021 21:42:00.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.20.04
+02-Nov-2021 21:42:00.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+02-Nov-2021 21:42:00.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:42:00.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:42:00.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+02-Nov-2021 21:42:00.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+02-Nov-2021 21:42:00.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+02-Nov-2021 21:42:00.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+02-Nov-2021 21:42:00.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+02-Nov-2021 21:42:00.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/conf/logging.properties
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54
+02-Nov-2021 21:42:00.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/temp
+02-Nov-2021 21:42:00.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+02-Nov-2021 21:42:00.382 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:42:00.401 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [463] milliseconds
+02-Nov-2021 21:42:00.447 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+02-Nov-2021 21:42:00.447 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+02-Nov-2021 21:42:00.460 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war]
+02-Nov-2021 21:42:00.638 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/TomcatWebApp-1.0-SNAPSHOT.war] has finished in [179] ms
+02-Nov-2021 21:42:00.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs]
+02-Nov-2021 21:42:00.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/docs] has finished in [20] ms
+02-Nov-2021 21:42:00.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples]
+02-Nov-2021 21:42:01.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/examples] has finished in [365] ms
+02-Nov-2021 21:42:01.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager]
+02-Nov-2021 21:42:01.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/host-manager] has finished in [30] ms
+02-Nov-2021 21:42:01.056 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager]
+02-Nov-2021 21:42:01.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/manager] has finished in [28] ms
+02-Nov-2021 21:42:01.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT]
+02-Nov-2021 21:42:01.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/juan/Documents/ies/lab02/apache-tomcat-9.0.54/webapps/ROOT] has finished in [19] ms
+02-Nov-2021 21:42:01.111 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Nov-2021 21:42:01.122 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [720] milliseconds
